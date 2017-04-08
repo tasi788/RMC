@@ -1,0 +1,5 @@
+requests
+flask
+line-bot-sdk
+telepot
+psycopg2
