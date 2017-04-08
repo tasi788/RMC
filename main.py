@@ -76,7 +76,9 @@ def callback():
 		content_type = msg['type']
 	if content_type == 'text':
 		if command == 'hello':
-			line_bot_api.reply_message(reply_to,ltext('不然你是要靠北什麼030...'))
+			line_bot_api.reply_message(reply_to,ltext('hello back!'))
+		else:
+			line_bot_api.reply_message(reply_to,ltext('尼好r'))
 	return 'OK'
 
 if __name__ == "__main__":
